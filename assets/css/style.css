@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex div {
+    margin-right: 5%;
+}
+
+h1 {
+    word-break: break-all;
+}
+
+input {
+    margin-top: 2vh;
+    font-family: fantasy;
+}
+
+p {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+button {
+    margin-top: 1vh;
+    padding: 5px;
+    font-family: fantasy;
+}
+
+main {
+    font-family: fantasy;
+    color: aliceblue;
+    background-image: url('https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdyaXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
+    background-size: auto;
+
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10vh;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 5%;
+}

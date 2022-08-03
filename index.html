@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <form onsubmit="trenneAlles(event)">
+            <h1>Zeichentrennungsmaschine</h1>
+            <p>Zu trennende Zeichenkette:</p>
+            <input type="text" name="txtInput">
+            <p>Zeichenkette für die Trennungsposition</p>
+            <input type="text" name="signInput">
+            <div>
+                <input type="radio" name="trennen" id="" value="davor">
+                <label for="">davor trennen</label>
+            </div>
+            <div>
+                <input type="radio" name="trennen" id="" value="danach">
+                <label for="">danach trennen</label>
+            </div>
+            <div>
+                <button type="submit">trenne</button>
+            </div>
+            <p>Ausgabe</p>
+            <div class="flex">
+                <div>
+                    <p>Vorderer Teil</p>
+                    <p id="outputVorne"></p>
+                </div>
+                <div>
+                    <p>Hinterer Teil</p>
+                    <p id="outputHinten"></p>
+                </div>
+
+            </div>
+        </form>
+
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
